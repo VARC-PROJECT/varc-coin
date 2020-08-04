@@ -1,0 +1,27 @@
+{
+  "name": "VARCCoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "3.1.0",
+    "@smartdec/smartcheck": "2.0.1",
+    "eth-token-recover": "3.1.0",
+    "openzeppelin-solidity": "3.1.0",
+    "solc": "0.4.24",
+    "solgraph": "0.3.3",
+    "solhint": "3.0.0",
+    "truffle": "5.1.33",
+    "truffle-hdwallet-provider": "1.0.17",
+    "web3": "1.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/truffle test"
+  },
+  "author": "",
+  "license": "ISC"
+}
